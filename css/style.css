@@ -168,6 +168,27 @@ nav ul li:nth-child(5) ul li:hover a {
     }
 }
 
+@media all and (max-width: 534px) {
+    nav ul:nth-child(1) .last_li_none,
+    nav ul:nth-child(1) .last_li_none {
+        display: none;
+    }
+
+    nav ul:nth-child(1) #primary_list {
+        width: 100%;
+        height: 100%; 
+    }
+
+    nav ul:nth-child(2) {
+        width: 100%;
+        
+    }
+
+    nav ul:nth-child(2) li {
+        width: 100%;
+    }
+}
+
 
 
 
