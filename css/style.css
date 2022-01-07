@@ -115,7 +115,58 @@ nav ul li:nth-child(5) ul li:hover a {
 }
 
 
+@media all and (max-width: 938px) {
 
+    nav ul:nth-child(1) li {
+        background-color: orangered;
+    }
+
+    nav ul li:nth-child(1) ul li:hover {
+        background-color: darkgreen;
+    }
+
+    nav ul li:nth-child(2) ul li:hover {
+        background-color: darkgreen;
+    }
+
+    nav ul li:nth-child(3) ul li:hover {
+        background-color: darkgreen;
+    }
+
+    nav ul li:nth-child(4) ul li:hover {
+        background-color: darkgreen;
+    }
+
+    nav ul li:nth-child(5) ul li:hover {
+        background-color: darkgreen;
+    }
+
+    nav ul:nth-child(1) li:hover h1 a{
+        color: darkgreen;
+    }
+
+}
+
+@media all and (max-width: 872px) {
+    nav ul:nth-child(1) .li_none,
+    nav ul:nth-child(1) .li_none {
+        display: none;
+    }
+
+    nav ul:nth-child(1) li {
+        width: 33.33%;
+        height: 100%; 
+    }
+
+    nav ul:nth-child(2) {
+        width: 33.33%;
+        
+    }
+
+    nav ul:nth-child(2) li {
+        width: 100%;
+    }
+}
 
 
 
